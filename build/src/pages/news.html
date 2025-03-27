@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../scss/news.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header">
+        <a href="../main.html">
+          <img
+            class="header-logo"
+            src="../img/logo.webp"
+            alt="wing of angel logo"
+          />
+        </a>
+        <h1 class="header-title">НОВИНИ</h1>
+        <img class="header-news-img" src="../img/news.webp" alt="" />
+        <div class="header-made-drone-list">
+          <p class="header-made-drone">ВИГОТОВЛЕНО</p>
+          <p id="header-made-num" class="header-made-num">0</p>
+        </div>
+      </div>
+    </header>
+    <footer class="container">
+      <div class="footer">
+        <div class="main-pages">
+          <p class="main-pages-news">Ми робимо дрони</p>
+        </div>
+        <ul class="footer-news-list">
+          <li class="footer-news-item">
+            <div class="time" id="currentTime"></div>
+            <div class="month" id="currentMonth"></div>
+            <div id="calendar"></div>
+          </li>
+          <li class="footer-news-item">
+            <h2 class="news-his-title">ІСТОРІЯ</h2>
+            <ul class="news-his-list"></ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="../js/news.js"></script>
+  </body>
+</html>

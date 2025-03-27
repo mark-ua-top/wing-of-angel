@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://markua-top.github.io/wing-of-angel/",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "build": "mkdir -p build && cp -r * build/"
+}
+
+}
