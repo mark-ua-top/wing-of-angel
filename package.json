@@ -1,25 +1,12 @@
 {
-  "name": "",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/wing-of-angel/",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
-  },
-  "devDependencies": {
-    "glob": "^8.1.0",
-    "vite": "^4.5.2"
-  },
-  "author": " <@gmail.com>",
-  "license": "ISC",
   "dependencies": {
-    "gh-pages": "^6.3.0",
-    "sass": "^1.77.2",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
-  }
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://markua-top.github.io/wing-of-angel/",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "build": "mkdir -p build && cp -r * build/"
+}
+
 }
