@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,23 +17,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../scss/main.css" />
-</head>
+    <link rel="stylesheet" href="../scss/heros.css" />
+  </head>
   <body>
-    <section class="container">
+    <header class="container">
       <div class="header">
-        <img
-          class="header-logo"
-          src="../img/logo.webp"
-          alt="wing of angel logo"
-        />
+        <a href="../main.html">
+          <img
+            class="header-logo"
+            src="../img/logo.webp"
+            alt="wing of angel logo"
+          />
+        </a>
+        <h1 class="heros-titel">НАШІ ГЕРОЇ</h1>
+        <img class="header-heros-img" src="../img/heros.webp" alt="" />
+        <div class="heros-list-search">
+          <p class="heros-search">Знайти</p>
+          <input class="heros-search-input" type="text" />
+        </div>
       </div>
-    </section>
-    <section class="container">
-      <div class="main-pages"></div>
-    </section>
+    </header>
     <footer class="container">
-      <div class="footer"></div>
+      <div class="footer">
+        <ul class="heros-list">
+          <li class="heros-item">
+            <img class="heros-img" src="../img/hero-luchenec.webp " alt="" />
+            <p class="heros-name">Москальчук Володимир Миколайович</p>
+          </li>
+                    <li class="heros-item">
+            <img class="heros-img" src="../img/hero-luchenec.webp " alt="" />
+            <p class="heros-name">Александер Володимир Миколайович</p>
+          </li>
+        </ul>
+      </div>
     </footer>
+    <script src="../js/heros.js"></script>
   </body>
 </html>

@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 50px;
+}
+.heros-list {
+  display: flex;
+  gap: 50px;
+}
+.heros-item {
+}
+.heros-name {
+  color: #fff;
+  text-shadow: 2px 1.5px 0px rgba(193, 222, 235, 0.8);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #065a76;
+  font-family: Mulish;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+  width: 360px;
+  text-align: center;
+}
+.heros-img {
+  width: 360px;
+}

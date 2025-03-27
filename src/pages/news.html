@@ -20,33 +20,38 @@
     <link rel="stylesheet" href="../scss/news.css" />
   </head>
   <body>
-    <section class="container">
+    <header class="container">
       <div class="header">
-        <img
-          class="header-logo"
-          src="../img/logo.webp"
-          alt="wing of angel logo"
-        />
+        <a href="../main.html">
+          <img
+            class="header-logo"
+            src="../img/logo.webp"
+            alt="wing of angel logo"
+          />
+        </a>
         <h1 class="header-title">НОВИНИ</h1>
-        <img src="../img/news.webp" alt="" />
-        <div>
-          <p>ВИГОТОВЛЕНО</p>
-          <p>0</p>
+        <img class="header-news-img" src="../img/news.webp" alt="" />
+        <div class="header-made-drone-list">
+          <p class="header-made-drone">ВИГОТОВЛЕНО</p>
+          <p id="header-made-num" class="header-made-num">0</p>
         </div>
       </div>
-    </section>
+    </header>
     <footer class="container">
       <div class="footer">
         <div class="main-pages">
           <p class="main-pages-news">Ми робимо дрони</p>
         </div>
-        <ul>
-          <li>
+        <ul class="footer-news-list">
+          <li class="footer-news-item">
             <div class="time" id="currentTime"></div>
             <div class="month" id="currentMonth"></div>
             <div id="calendar"></div>
           </li>
-          <li></li>
+          <li class="footer-news-item">
+            <h2 class="news-his-title">ІСТОРІЯ</h2>
+            <ul class="news-his-list"></ul>
+          </li>
         </ul>
       </div>
     </footer>
