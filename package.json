@@ -1,12 +1,24 @@
 {
-  "dependencies": {
-    "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://markua-top.github.io/wing-of-angel/",
+  "name": "wing-of-angel",
+  "version": "1.0.0",
+  "description": "wing-of-angel",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build": "mkdir -p build && cp -r * build/"
-}
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/main.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkUA-top/wing-of-angel.git"
+  },
+  "author": "Mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkUA-top/wing-of-angel/issues"
+  },
+  "homepage": "https://github.com/MarkUA-top/wing-of-angel#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "parcel": "^2.14.4",
+    "start": "^5.1.0"
+  }
 }
