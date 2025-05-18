@@ -1,0 +1,2 @@
+let searchInput=document.querySelector(".heros-search-input"),herosList=document.querySelector(".heros-list"),herosItems=herosList.querySelectorAll(".heros-item");function filterList(){let e=searchInput.value.toLowerCase();herosItems.forEach(t=>{t.querySelector(".heros-name").textContent.toLowerCase().includes(e)?t.style.display="":t.style.display="none"})}searchInput.addEventListener("input",filterList);
+//# sourceMappingURL=heros.c0186712.js.map
