@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark-ua-top/wing-of-angel.git"
+    "url": "git+https://github.com/mark-ua-top/wing-of-angel"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/mark-ua-top/wing-of-angel/issues"
   },
-  "homepage": "https://github.com/mark-ua-top/wing-of-angel#readme",
+  "homepage": "https://mark-ua-top.github.io/wing-of-angel/",
   "description": "",
   "dependencies": {
     "gh-pages": "^6.3.0",
