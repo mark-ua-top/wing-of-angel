@@ -1,6 +1,14 @@
 {
   "name": "wing-of-angel",
   "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.8",
+    "parcel": "^2.14.4",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
   "scripts": {
     "start": "npx parcel src/main.html",
     "build": "parcel build src/main.html --no-cache --public-url './'",
@@ -9,20 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark-ua-top/wing-of-angel"
+    "url": "git+https://github.com/mark-ua-top/wing-of-angel.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "mark-ua-top",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mark-ua-top/wing-of-angel/issues"
   },
-  "homepage": "https://mark-ua-top.github.io/wing-of-angel/",
-  "description": "",
-  "dependencies": {
-    "gh-pages": "^6.3.0",
-    "parcel": "^2.14.4",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^2.0.1"
-  }
+  "homepage": "https://mark-ua-top.github.io/wing-of-angel/"
 }
